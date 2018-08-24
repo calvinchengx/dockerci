@@ -6,6 +6,7 @@ RUN apk add --update bash git
 # nodejs and webpack
 RUN apk add --update nodejs nodejs-npm
 RUN npm i -g webpack-cli webpack yarn
+RUN npm install -g vault-dotenv
 RUN npm install node-sass
 
 # python3 and docker-compose
