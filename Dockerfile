@@ -14,5 +14,5 @@ RUN pip3 install docker-compose
 # python (python2), make, gcc, g++, node-gyp and node-sass
 RUN apk add --no-cache make gcc g++ python
 RUN npm install -g node-gyp
-RUN npm install node-sass
+RUN npm install -g node-sass
 
